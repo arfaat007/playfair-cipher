@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result - Playfair Cipher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+        <p><strong>Mode:</strong> {{ mode }}</p>
+        <p><strong>Key:</strong> {{ key }}</p>
+        <p><strong>Input Text:</strong> {{ text }}</p>
+        <p><strong>Output Text:</strong> {{ result }}</p>
+
+        <a href="/">🔙 Go Back</a>
+    </div>
+</body>
+</html>
